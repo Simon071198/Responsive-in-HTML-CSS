@@ -265,6 +265,12 @@ ul{
     box-shadow: var(--box-shadow);
 }
 
+body{
+    width: 100%;
+    background: url("./assets/backgroundpng.png") no-repeat;
+    background-size: cover;
+}
+
 /* End Global Classes */
 
 /* Media Query / Responsive */
@@ -315,6 +321,8 @@ ul{
 
     #nav{
         flex-direction: row !important;
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
     }
 
     #nav .toggle-btn > button{
