@@ -24,3 +24,9 @@ window.onload = function digital_fn(){
 var rellax = new Rellax('.rellax', {
     center : true
 }) 
+
+// dark light mode
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}

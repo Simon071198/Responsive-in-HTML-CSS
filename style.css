@@ -585,3 +585,10 @@ body{
 /* End Footer Style */
 
 
+/* Dark Mode Style */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+/* End Dark Mode Style */
+
