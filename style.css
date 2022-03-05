@@ -266,6 +266,7 @@ ul{
 }
 
 body{
+    background-color: white;
     width: 100%;
     background: url("./assets/backgroundpng.png") no-repeat;
     background-size: cover;
@@ -586,9 +587,22 @@ body{
 
 
 /* Dark Mode Style */
-.dark-mode {
+/* .dark-mode {
     background-color: black;
     color: white;
+} */
+body.dark {
+    background-color: black
+}
+
+button {
+    background-color: white; 
+    color: black
+}
+
+body.dark button {
+    background-color: black; 
+    color: white
 }
 /* End Dark Mode Style */
 
